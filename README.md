@@ -11,6 +11,7 @@ As far as hosting is concerned, I don't really want to spend money to keep the b
 
 ## Updates
 Oct 17 2023: Now has AI Chat Integration
+
 Nov 8 2023: Bot now takes into account the existence of Daylight Savings
 
 ## Details
