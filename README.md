@@ -13,6 +13,7 @@ Hosting has now been relocated to AWS by using Lambda functions. This applicatio
 
 ## Updates
 Oct 17 2023: Now has AI Chat Integration
+
 Nov 8 2023: Bot now takes into account the existence of Daylight Savings
 Feb 5 2024: Moved hosting to AWS using Lambda functions
 
