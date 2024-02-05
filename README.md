@@ -15,6 +15,7 @@ Hosting has now been relocated to AWS by using Lambda functions. This applicatio
 Oct 17 2023: Now has AI Chat Integration
 
 Nov 8 2023: Bot now takes into account the existence of Daylight Savings
+
 Feb 5 2024: Moved hosting to AWS using Lambda functions
 
 ## Details
@@ -22,5 +23,7 @@ This project mainly uses
 - Discord.py - API used for running a bot in a Discord Server
 - Flask - Used to host a simple web server to keep the bot running
 - OpenAI API - Used to request an AI response from GPT-3.5 (same version of GPT that ChatGPT uses)
+- Utilizes a docker image on AWS Lambda so that the deployment goes smoothly
+- Deployed via AWS CDK
 
   ![WW](https://github.com/AdamClements3/AWBot/assets/12504752/f04b7737-e39d-462c-a2bc-70e089b4ec84)
