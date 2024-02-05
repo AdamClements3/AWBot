@@ -5,7 +5,7 @@ import openai
 from mangum import Mangum
 from asgiref.wsgi import WsgiToAsgi
 
-DISCORD_PUBLIC_KEY = os.environ.get("PUBKEY")
+DISCORD_PUBLIC_KEY = os.environ.get("DISCORD_PUBLIC_KEY")
 
 app = Flask(__name__)
 asgi_app = WsgiToAsgi(app)
