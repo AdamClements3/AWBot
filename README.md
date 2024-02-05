@@ -7,11 +7,14 @@ AWBot is an AI chatbot that mimics Albert Wesker from the Resident Evil games. I
 A month or so later, I found out that I had gotten developer access to the GPT API and I thought this bot would be the perfect candidate to get retrofitted with AI Chat capabilities. I reworked the system, and now any member of our discord server can send messages that wil be responded to by AI that mimic Albert Wesker.
 
 ## Hosting
-As far as hosting is concerned, I don't really want to spend money to keep the bot online, so the solution I came up with was to build a very basic web server with Flask to keep my repl.it instance "alive" and effectively host the bot for free. While inconsistent, it works well enough for our purposes. https://replit.com/@AdamClements1/AWBot#main.py
+~~As far as hosting is concerned, I don't really want to spend money to keep the bot online, so the solution I came up with was to build a very basic web server with Flask to keep my repl.it instance "alive" and effectively host the bot for free. While inconsistent, it works well enough for our purposes. https://replit.com/@AdamClements1/AWBot#main.py~~
+
+Hosting has now been relocated to AWS by using Lambda functions. This application really had no use for a server since it is a simple call and response.
 
 ## Updates
 Oct 17 2023: Now has AI Chat Integration
 Nov 8 2023: Bot now takes into account the existence of Daylight Savings
+Feb 5 2024: Moved hosting to AWS using Lambda functions
 
 ## Details
 This project mainly uses

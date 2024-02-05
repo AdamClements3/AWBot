@@ -1,2 +1,12 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
 
-secret.env
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.env
+
+aw_bot_cdk-stack.ts

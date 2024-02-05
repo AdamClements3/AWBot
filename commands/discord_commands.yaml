@@ -1,0 +1,7 @@
+- name: talk
+  description: Talk to Wesker
+  options:
+    - name: message
+      description: The message to send to Wesker
+      type: 3 # string
+      required: true
